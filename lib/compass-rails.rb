@@ -25,7 +25,7 @@ module CompassRails
       if rails31? || rails32? || rails4?
         require 'sass-rails'
         if rails4?
-          require 'sprockets-rails'
+          require 'sprockets/rails'
         else
           require 'sprockets/railtie'
         end
